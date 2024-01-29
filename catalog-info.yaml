@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: app-spring-hml
+  description: "A Spring Project..."
+  annotations:
+    github.com/project-slug: veecode-bot/app-spring-hml
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/kubernetes-id: "app-spring-hml"
+    vault.io/secrets-path: "app-spring-hml"
+    grafana/tag-selector: "app-spring-hml"
+    grafana/alert-label-selector: "alertname=app-spring-hml"
+    argocd/proxy-url: '/argocd/api'
+    argocd/app-name: "app-spring-hml"
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "group:default/admin"
+
+
+

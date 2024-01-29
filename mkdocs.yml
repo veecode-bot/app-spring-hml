@@ -1,0 +1,8 @@
+site_name: "app-spring-hml"
+site_description: "A Spring Project..."
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core
